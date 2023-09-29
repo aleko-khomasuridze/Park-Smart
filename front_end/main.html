@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>ParkSmart</title>
+</head>
+<body>
+    
+    <div class="map">
+        <div class="side_walk1"></div>
+        <div class="main_road">
+            <div class="parking1">
+                <button id="p1">A001</button>
+                <button id="p2">A002</button>
+                <button id="p3">A003</button>
+                <button id="p4">A004</button>
+                <button id="p5">A005</button>
+            </div>
+            <div class="parking2">
+                <button id="p6">A006</button>
+                <button id="p7">A007</button>
+                <button id="p8">A008</button>
+                <button id="p9">A009</button>
+                <button id="p10">A010</button>
+            </div>
+        </div>
+        <div class="side_walk2"></div>
+    </div>
+
+    <main class="panel">
+        <button id="pc1" onclick="selectPC1()">A002</button>
+        <button id="pc2" onclick="selectPC2()">A005</button>
+        <button id="pc3" onclick="selectPC3()">A006</button>
+        <button id="pc4" onclick="selectPC4()">A009</button>
+    </main>
+
+    <div class="nav_bar">
+        <div class="search">
+            <input type="text" class="search_bar">
+            <button class="search_btn"></button>
+        </div>
+        <div class="user_book">
+            <div class="user">
+                <div class="img"></div>
+                <div class="info">
+                    <h2 style="color: rgba(210, 229, 255, 1);">Alex</h2>
+                    <h3 style="font-size: 1.9vh;">Ford Fusion</h3>
+                </div>
+            </div>
+            <button id="book" onclick=pay()>Book for: 0.00₾</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="/eel.js"></script>
+</html>
