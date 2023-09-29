@@ -2,7 +2,7 @@
 import eel
 
 # Initialize eel with the "web" directory where HTML and other web files are located
-eel.init("web")
+eel.init("Front_end")
 
 # Initialize an empty variable to store data
 data = ''
